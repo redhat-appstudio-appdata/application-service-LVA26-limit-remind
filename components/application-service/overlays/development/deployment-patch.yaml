@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: application-service
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-has-tenant/application-service/application-service@sha256:4c96a141353a15ac7d8484151095b18355f60b02a62f18cc1604274836797b55
+        name: container-image
+        resources: {}
+status: {}
