@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: application-service
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-has-tenant/application-service/application-service@sha256:207cc2cc839a97e4b149773659b5ee9fd3b8f45f857feeebb7f1d48ae66d4cc9
+      - image: quay.io/redhat-user-workloads/rhtap-has-tenant/application-service/application-service@sha256:ae5016a7c68b108af0a2ef998ae57083ae5952fde8fc7fdf137891a0220a3054
         imagePullPolicy: Always
         name: container-image
         ports:
