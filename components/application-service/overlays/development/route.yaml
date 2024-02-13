@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: application-service
     app.kubernetes.io/part-of: application-service
-  name: application-servicenuh5
+  name: application-servicedide
 spec:
   port:
     targetPort: 6060
